@@ -1,0 +1,27 @@
+{
+  "description": "一个带有天气、随机数和待办工具的示例MCP服务器",
+  "name": "io.github.sheng-jie/SampleMcpServer",
+  "packages": [
+    {
+      "registry_name": "nuget",
+      "name": "sheng-jie.SampleMcpServer",
+      "version": "0.3.0",
+      "package_arguments": [],
+      "environment_variables": [
+        {
+          "name": "WEATHER_CHOICES",
+          "description": "以逗号分隔的天气描述列表",
+          "is_required": true,
+          "is_secret": false
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/sheng-jie/SampleMcpServer",
+    "source": "github"
+  },
+  "version_detail": {
+    "version": "0.3.0"
+  }
+}
